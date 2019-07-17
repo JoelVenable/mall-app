@@ -7,9 +7,9 @@ namespace MallApp
     {
         private Dictionary<string, DollarItem> _inventory = new Dictionary<string, DollarItem>();
 
-        public void AddToInventory(string name, DollarItem item)
+        public void AddToInventory(string itemName, DollarItem dollarItem)
         {
-            _inventory.Add(name, item);
+            _inventory.Add(itemName, dollarItem);
         }
     }
 }
