@@ -7,6 +7,9 @@ namespace MallApp
         static void Main(string[] args)
         {
             DollarStore Dollarama = new DollarStore();
+
+            FoodStore Cinnabon = new FoodStore();
+
         }
     }
 }
