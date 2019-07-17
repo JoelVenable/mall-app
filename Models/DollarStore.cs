@@ -1,10 +1,15 @@
 using System;
 using System.Collections.Generic;
 
-namespace mall
+namespace MallApp
 {
-    public class DollarStore
+    public class DollarStore : IStore
     {
         private Dictionary<string, DollarItem> _inventory = new Dictionary<string, DollarItem>();
+
+        public void AddToInventory(string name, DollarItem item)
+        {
+            _inventory.Add(name, item);
+        }
     }
 }
