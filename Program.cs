@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace mall_app
+namespace MallApp
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            DollarStore Dollarama = new DollarStore();
         }
     }
 }

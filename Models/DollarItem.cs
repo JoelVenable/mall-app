@@ -1,6 +1,6 @@
 using System;
 
-namespace mall
+namespace MallApp
 {
     public class DollarItem
     {   
