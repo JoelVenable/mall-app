@@ -1,8 +1,8 @@
 namespace MallApp
 {
-    public interface IStore
+    public interface IStore<TItem>
     {
-        void AddToInventory(string name, DollarItem item);
+        void AddToInventory(string name, TItem item);
     }
 
 }

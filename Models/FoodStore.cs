@@ -2,8 +2,13 @@ using System;
 
 namespace  MallApp
 {
-    public class FoodStore
+    public class FoodStore : IStore<FoodItem>
     {
         private Dictionary<string, FoodItem> _inventory = new Dictionary<string, FoodItem>();
+
+        public void AddToInventory(string name, FoodItem item)
+        {
+            _inventory.Add(name, item);
+        }
     }
 }

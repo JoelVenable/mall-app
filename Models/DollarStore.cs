@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace MallApp
 {
-    public class DollarStore : IStore
+    public class DollarStore : IStore<DollarItem>
     {
         private Dictionary<string, DollarItem> _inventory = new Dictionary<string, DollarItem>();
 
