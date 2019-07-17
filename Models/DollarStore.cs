@@ -11,5 +11,10 @@ namespace MallApp
         {
             _inventory.Add(itemName, dollarItem);
         }
+
+        public DollarItem GetFromInventory(string name)
+        {
+            return _inventory[name];
+        }
     }
 }
