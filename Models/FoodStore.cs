@@ -1,6 +1,8 @@
 using System;
+using System.Collections.Generic;
 
-namespace  MallApp
+
+namespace MallApp
 {
     public class FoodStore : IStore<FoodItem>
     {

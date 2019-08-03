@@ -33,6 +33,10 @@ namespace MallApp
             Cinnabon.AddToInventory("tcr", ClassicRoll);
             Cinnabon.AddToInventory("cpb", CaramelPecanBon);
 
+            Console.WriteLine(Dollarama.GetFromInventory("mcp").Name);
+            Console.WriteLine(Cinnabon.GetFromInventory("tcr").Name);
+
+
         }
     }
 }
